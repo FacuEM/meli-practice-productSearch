@@ -1,0 +1,61 @@
+.itemContainer {
+  background-color: white;
+  width: 80%;
+  border-radius: 4px;
+  margin: 16px auto;
+  .itemInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    img {
+      width: 300px;
+    }
+
+    .price {
+      margin-right: 20px;
+      h5 {
+        font-weight: 300;
+        font-size: 7px;
+        margin-top: 32px;
+        margin-bottom: 0;
+      }
+      h3 {
+        margin-top: 10px;
+        margin-bottom: 0;
+        font-size: 14px;
+        font-weight: 600;
+      }
+      h2 {
+        margin-top: 13px;
+        margin-bottom: 0;
+        font-size: 20px;
+        font-weight: 400;
+      }
+      button {
+        margin-top: 20px;
+        width: 100%;
+        background-color: #3483fa;
+        color: white;
+        border: none;
+        cursor: pointer;
+        border-radius: 2px;
+      }
+    }
+  }
+  .description {
+    padding-bottom: 15px;
+    h3 {
+      margin-left: 32px;
+      margin-bottom: 0;
+      font-weight: 400;
+    }
+    p {
+      margin-left: 32px;
+      margin-right: 32px;
+
+      font-size: 10px;
+      color: #999999;
+    }
+  }
+}
